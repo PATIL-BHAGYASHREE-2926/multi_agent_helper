@@ -87,8 +87,8 @@ I tested two sizes with the question *"Which function queries Pinecone?"*:
 You need Python 3.10+, Node.js (for `npx`), a free [NVIDIA NIM key](https://build.nvidia.com) and a free [Pinecone key](https://www.pinecone.io).
 
 ```powershell
-git clone <this-repo-url>
-cd multi-agent-code-helper
+git clone https://github.com/PATIL-BHAGYASHREE-2926/multi_agent_helper.git
+cd multi_agent_helper
 python -m venv .venv
 .venv\Scripts\Activate.ps1          # Mac/Linux: source .venv/bin/activate
 pip install -r requirements.txt
@@ -100,6 +100,8 @@ adk run code_helper                    # chat in the terminal
 adk web                                # web UI with trace panel
 python tests\test_tools.py             # tests for the no-AI tools
 ```
+
+Each new terminal needs `.venv\Scripts\Activate.ps1` run again. The `(.venv)` prefix must show before you use `pip` or `adk`.
 
 On Windows, if you see a `UnicodeDecodeError`, run `setx PYTHONUTF8 1` and reopen the terminal. Run `adk web` from the folder that **contains** `code_helper`.
 
@@ -123,6 +125,17 @@ On Windows, if you see a `UnicodeDecodeError`, run `setx PYTHONUTF8 1` and reope
 **3. "Where is the search for similar vectors done?"** (`code_searcher`, tool `rag_search`)
 > Most relevant file: `vector_store.py`, where the cosine similarity code and the vector query live.
 
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| `pip` or `adk` not recognized | The venv is not active. Run `.venv\Scripts\Activate.ps1` and look for `(.venv)` |
+| "running scripts is disabled" | Run `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` once |
+| Agent folder not listed in `adk web` | Run it from the folder that contains `code_helper` |
+| Searcher says "I could not find that" | Run `python code_helper\index_codebase.py` first |
+| MCP import error | Run `pip install mcp` |
+| "Too many requests" | Wait a minute and retry |
+
 ## Problems I hit and how I fixed them
 
 1. **Answers described my own code instead of the project.** The agent kept naming `rag.py`. Cause: a re-index scanned the whole folder, so my helper's files were in Pinecone. Fix: point `PROJECT_PATH` only at the sample project, use `glob("*.py")`, wipe the index and re-index. Result: the index holds only the 5 project files (102 chunks at 500/100).
@@ -141,9 +154,4 @@ On Windows, if you see a `UnicodeDecodeError`, run `setx PYTHONUTF8 1` and reope
 ## Credits
 
 The sample project in `Naive_RAG/` comes from [voidgremlin19/Naive_RAG](https://github.com/voidgremlin19/Naive_RAG) and is used only as the code the helper studies. The agents, tools and RAG pipeline in `code_helper/` are my own work.
-
-
-
-
-
 
