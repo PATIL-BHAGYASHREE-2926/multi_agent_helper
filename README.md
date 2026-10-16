@@ -107,10 +107,10 @@ On Windows, if you see a `UnicodeDecodeError`, run `setx PYTHONUTF8 1` and reope
 
 | Question | Answered by | Screenshot |
 |---|---|---|
-| Where is the search for similar vectors done? | `code_searcher` | ![](docs/screenshots/routing_searcher.png) |
-| Explain indexer.py | `code_explainer` | ![](docs/screenshots/routing_explainer.png) |
-| Which files import config.py? | `architecture_mapper` | ![](docs/screenshots/routing_mapper.png) |
-| I am new. Where do I start? | `onboarding_guide` | ![](docs/screenshots/routing_guide.png) |
+| Where is the search for similar vectors done? | `code_searcher` | ![](screenshots/routing_searcher.png) |
+| Explain indexer.py | `code_explainer` | ![](screenshots/routing_explainer.png) |
+| Which files import config.py? | `architecture_mapper` | ![](screenshots/routing_mapper.png) |
+| I am new. Where do I start? | `onboarding_guide` | ![](screenshots/routing_guide.png) |
 
 ### Sample answers
 
@@ -141,4 +141,7 @@ On Windows, if you see a `UnicodeDecodeError`, run `setx PYTHONUTF8 1` and reope
 ## Credits
 
 The sample project in `Naive_RAG/` comes from [voidgremlin19/Naive_RAG](https://github.com/voidgremlin19/Naive_RAG) and is used only as the code the helper studies. The agents, tools and RAG pipeline in `code_helper/` are my own work.
+
+
+
 
