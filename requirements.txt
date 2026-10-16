@@ -1,0 +1,6 @@
+﻿google-adk
+litellm>=1.84
+openai
+pinecone
+python-dotenv
+mcp

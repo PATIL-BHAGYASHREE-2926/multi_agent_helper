@@ -1,0 +1,20 @@
+# ASTRATECH SOLUTIONS: EMPLOYEE HANDBOOK & COMPANY POLICIES
+# DOCUMENT ID: AT-HR-2026-V2
+# AUDIENCE: ALL NEW HIRES & ENGINEERING STAFF
+
+---
+
+## SECTION 1: WORKING HOURS & HYBRID WORK POLICY
+AstraTech Solutions operates on a flexible hybrid schedule designed to balance in-person collaboration with focused deep work. Core business collaboration hours are 10:00 AM to 4:00 PM local time, during which team members are expected to be reachable on Slack. All full-time employees work from the main office three days a week (Mondays, Tuesdays, and Thursdays). Remote work from home is permitted on Wednesdays and Fridays. To protect uninterrupted coding time, Tuesday afternoons from 1:00 PM to 5:00 PM are designated as company-wide "No-Meeting Focus Blocks."
+
+## SECTION 2: PAID TIME OFF (PTO) & WELLNESS BENEFITS
+All full-time employees receive 24 days of paid time off (PTO) per calendar year, accrued monthly. Employees may carry over a maximum of 5 unused PTO days into the following calendar year. Sick leave is fully paid and allows up to 5 consecutive business days without requiring a doctor's medical note. In addition to standard health insurance, AstraTech provides an annual Wellness Stipend of $800 per employee, reimbursable for gym memberships, yoga classes, or mental health counseling apps.
+
+## SECTION 3: HARDWARE STIPEND & HOME OFFICE SETUP
+Every new engineering hire chooses between a 16-inch MacBook Pro (M3 Max, 36GB Unified Memory) or a Lenovo ThinkPad P16 mobile workstation upon joining. To support comfortable remote work on Wednesdays and Fridays, AstraTech provides a one-time remote home office setup stipend of $1,200. This stipend covers ergonomic chairs, standing desks, 4K external monitors, or noise-cancelling headphones. All home office expense receipts must be submitted via Expensify within 30 days of purchase.
+
+## SECTION 4: OFFICE ACCESS, VISITOR WI-FI & CAFETERIA
+The AstraTech campus is accessible 24 hours a day, 7 days a week using your issued RFID employee security badge. If visitors or guests require internet access, the office guest Wi-Fi network SSID is AstraTech-Guest and the password is CoffeeAndCode2026!. Employees commuting by bicycle can access the secure indoor bike storage room located on Basement Level B1; the door keypad unlock code is 7492#. Complimentary catered hot lunch is served daily Monday through Thursday at 12:30 PM on the 4th-floor cafeteria terrace.
+
+## SECTION 5: ANNUAL LEARNING & CONFERENCE STIPEND
+To foster continuous engineering growth, each team member is allocated an annual Professional Learning Budget of $2,500 per fiscal year. This budget can be used for O'Reilly technical books, online course subscriptions, and industry certification exams (including NVIDIA NIM, AWS, and GCP certifications). For attending domestic or international developer conferences, travel expense requests must be submitted to your direct engineering manager at least 45 days prior to the conference date.
